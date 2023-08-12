@@ -9,7 +9,7 @@ router.post("/", usersController.createUser);
 router.get("/", usersController.getAllUsers);
 router.get("/:id", usersController.getUserById);
 
-// update
+// UPDATE
 router.put("/:id", usersController.updateUser);
 
 // DELETE
